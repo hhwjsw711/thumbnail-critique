@@ -4,13 +4,7 @@ const nextConfig = {
     unoptimized: true,
     remotePatterns: [
       {
-        hostname: "kindly-kookabura-369.convex.cloud",
-      },
-      {
-        hostname: "silent-eel-513.convex.cloud",
-      },
-      {
-        hostname: "thumbnailcritique.com",
+        hostname: "efficient-caiman-220.convex.cloud",
       },
     ],
   },
