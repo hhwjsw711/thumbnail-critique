@@ -26,12 +26,10 @@ function ConvexImage({ imageId }: { imageId: Id<"_storage"> }) {
 
   return (
     imageUrl && (
-      <Image
-        alt="image test image"
-        className="object-cover"
-        src={imageUrl}
-        layout="fill"
-      />
+      <video autoPlay muted playsInline loop width="1280" height="720" controls preload="none" aria-label="Video player">
+        <source src={imageUrl} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     )
   );
 }
@@ -67,13 +65,6 @@ export default function CreatePage() {
             newErrors = {
               ...newErrors,
               title: "please fill in this required field",
-            };
-          }
-
-          if (images.length < 2) {
-            newErrors = {
-              ...newErrors,
-              images: "you must upload at least 2 thumbnails",
             };
           }
 
@@ -161,7 +152,7 @@ export default function CreatePage() {
                   : "Uploading..."
               }
               uploadUrl={generateUploadUrl}
-              fileTypes={["image/*"]}
+              fileTypes={["video/mp4"]}
               multiple
               onUploadComplete={async (uploaded: UploadFileResponse[]) => {
                 setImages((imgs) => [

@@ -63,11 +63,12 @@ export default function RootLayout({
           content="https://projectplannerai.com/twitter-image.png"
         ></meta> */}
 
-        <Script
+        <script
           src="https://beamanalytics.b-cdn.net/beam.min.js"
-          data-token="97571696-c451-45e7-b454-fc262ce1e677"
+          data-token="58f8f071-d13b-4b2b-8f1a-92d43c855ff4"
           async
-        ></Script>
+        >
+        </script>
       </head>
 
       <body className={inter.className}>
