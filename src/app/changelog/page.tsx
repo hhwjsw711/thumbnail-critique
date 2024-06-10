@@ -13,7 +13,7 @@ export default async function ChangelogPage() {
   unstable_noStore();
 
   const changelogs = await fetch(
-    `https://projectplannerai.com/api/changelog?projectId=j57crafbck4rdrfsp64ydym2tx6j2b83`
+    `https://projectplannerai.com/api/changelog?projectId=j579jdjastq8z66t23hhrn4a6n6ts44h`
   ).then(async (res) => res.json() as Promise<ChangeLog[]>);
 
   return (
