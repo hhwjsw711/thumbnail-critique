@@ -6,6 +6,9 @@ const nextConfig = {
       {
         hostname: "efficient-caiman-220.convex.cloud",
       },
+      {
+        hostname: "studio.fizzdragon.com",
+      },
     ],
   },
 };

@@ -26,10 +26,12 @@ function ConvexImage({ imageId }: { imageId: Id<"_storage"> }) {
 
   return (
     imageUrl && (
-      <video autoPlay muted playsInline loop width="1280" height="720" controls preload="none" aria-label="Video player">
-        <source src={imageUrl} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <Image
+        alt="image test image"
+        className="object-cover"
+        src={imageUrl}
+        layout="fill"
+      />
     )
   );
 }
@@ -152,7 +154,7 @@ export default function CreatePage() {
                   : "Uploading..."
               }
               uploadUrl={generateUploadUrl}
-              fileTypes={["video/mp4"]}
+              fileTypes={["image/*"]}
               multiple
               onUploadComplete={async (uploaded: UploadFileResponse[]) => {
                 setImages((imgs) => [

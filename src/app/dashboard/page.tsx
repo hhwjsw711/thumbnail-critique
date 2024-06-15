@@ -63,10 +63,12 @@ export default function DashboardPage() {
               <CardHeader>
                 <div className="relative aspect-[1280/720]">
                   {thumbnail.urls[0] && (
-                    <video autoPlay muted playsInline loop width="1280" height="720" controls preload="none" aria-label="Video player">
-                      <source src={thumbnail.urls[0]} type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
+                    <Image
+                      alt="image test"
+                      className="object-cover"
+                      src={thumbnail.urls[0]}
+                      layout="fill"
+                    />
                   )}
                 </div>
               </CardHeader>

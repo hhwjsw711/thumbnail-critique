@@ -52,10 +52,12 @@ function ThumbnailTestImage({
   return (
     <div className="flex flex-col gap-4 border p-4 bg-white dark:bg-gray-950">
       <div className="relative aspect-[1280/720]">
-        <video autoPlay muted playsInline loop width="1280" height="720" controls preload="none" aria-label="Video player">
-          <source src={imageUrl} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <Image
+          alt="image test"
+          className="object-cover"
+          src={imageUrl}
+          layout="fill"
+        />
       </div>
 
       <div className="flex gap-4">

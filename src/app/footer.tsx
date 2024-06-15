@@ -8,11 +8,11 @@ export function Footer() {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link
-              href="https://thumbnailcritique.com/"
+              href="https://studio.fizzdragon.com/"
               className="flex items-center"
             >
               <span className="hidden md:block self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                ThumbnailCritique.com
+                OnePersonStudio.com
               </span>
             </Link>
           </div>
@@ -23,7 +23,7 @@ export function Footer() {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <Link
-                  href="https://gradient-png-generator.vercel.app/"
+                  href="https://studio.fizzdragon.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -33,21 +33,21 @@ export function Footer() {
 
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <Link
-                  href="https://thumbnailcheck.com/"
+                  href="https://studio.fizzdragon.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Thumbnail Check
+                  Looking for Investors
                 </Link>
               </ul>
 
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <Link
-                  href="https://thumbnailtest.com/"
+                  href="https://studio.fizzdragon.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Thumbnail Test
+                  Seeking Partners
                 </Link>
               </ul>
             </div>
@@ -57,21 +57,21 @@ export function Footer() {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium flex flex-col gap-4">
                 <Link
-                  href="https://x.com/webdevcody"
+                  href="https://fizzdragon.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-2"
                 >
-                  <XIcon /> @WebDevCody
+                  <XIcon /> @FizzDragon
                 </Link>
 
                 <Link
-                  href="https://youtube.com/@webdevcody"
+                  href="https://blog.fizzdragon.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-2"
                 >
-                  <Youtube /> @WebDevCody
+                  <Youtube /> @FizzDragon
                 </Link>
               </ul>
             </div>
@@ -99,10 +99,10 @@ export function Footer() {
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024{" "}
             <a
-              href="https://thumbnailcritique.com/"
+              href="https://studio.fizzdragon.com/"
               className="hover:underline"
             >
-              ThumbnailCritique.com
+              OnePersonStudio.com
             </a>
             . All Rights Reserved.
           </span>
