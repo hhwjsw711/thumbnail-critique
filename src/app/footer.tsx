@@ -12,7 +12,7 @@ export function Footer() {
               className="flex items-center"
             >
               <span className="hidden md:block self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                OnePersonStudio.com
+                FizzDragon.com
               </span>
             </Link>
           </div>
@@ -21,34 +21,25 @@ export function Footer() {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Resources
               </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                <Link
-                  href="https://studio.fizzdragon.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Gradient Tool
-                </Link>
-              </ul>
-
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                <Link
-                  href="https://studio.fizzdragon.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Looking for Investors
-                </Link>
-              </ul>
-
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                <Link
-                  href="https://studio.fizzdragon.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Seeking Partners
-                </Link>
+              <ul className="text-gray-500 dark:text-gray-400 font-medium flex flex-col gap-4">
+                <li>
+                  <Link
+                    href="https://studio.fizzdragon.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    FizzDragon
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="https://studio.fizzdragon.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    FizzDragon
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
@@ -57,7 +48,7 @@ export function Footer() {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium flex flex-col gap-4">
                 <Link
-                  href="https://fizzdragon.com/"
+                  href="https://studio.fizzdragon.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-2"
@@ -66,7 +57,7 @@ export function Footer() {
                 </Link>
 
                 <Link
-                  href="https://blog.fizzdragon.com/"
+                  href="https://studio.fizzdragon.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-2"
@@ -102,7 +93,7 @@ export function Footer() {
               href="https://studio.fizzdragon.com/"
               className="hover:underline"
             >
-              OnePersonStudio.com
+              FizzDragon.com
             </a>
             . All Rights Reserved.
           </span>

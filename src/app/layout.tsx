@@ -11,7 +11,7 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "One Person Studio",
+  title: "Studio",
   description: "Get feedback for your thumbnails by your peers",
 };
 
